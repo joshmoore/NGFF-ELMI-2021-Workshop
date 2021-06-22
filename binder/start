@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
 set -ex
-nohup minio server /home/joyvan &
+# nohup minio server /home/joyvan &
+# Trying jupyter-server-proxy
+pip install .
 exec "$@"

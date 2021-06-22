@@ -17,9 +17,12 @@ dependencies:
   - bioformats2raw
   - omero-py
   - go-mc
+  - python-graphviz
   - pip
   - pip:
       - PyQT5==5.13.1
       - ome-zarr
       - awscli
       - omero-cli-zarr
+      - ipywidgets
+      - jupyter-server-proxy
