@@ -4,7 +4,7 @@ This repository contains notebooks for the practicals during ELMI 2021.
 
 ## Running on MyBinder.org
 
-You can launch workshop.ipynb by clicking on
+You can launch the notebook 0_Intro.ipynb by clicking on
 [![binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/joshmoore/NGFF-ELMI-2021-Workshop/HEAD?filepath=0_Intro.ipynb)
 
 ## Running in Docker
