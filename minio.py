@@ -3,5 +3,5 @@ def setup_minio():
       # 'command': ['nohup', 'minio', '--address', ':{port}', 'server', '/home/joyvan', '&']
       'command': ['bash', 'minio.sh', ':{port}'],
       'timeout': 10,
-      'absolute_url': True,
+      'absolute_url': False, # True works locally
   }
