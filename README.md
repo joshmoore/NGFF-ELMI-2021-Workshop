@@ -1,6 +1,6 @@
 # NGFF ELMI 2021 Workshop
 
-This repository contains a notebook for the practicals during ELMI 2021.
+This repository contains notebooks for the practicals during ELMI 2021.
 
 ## Running on MyBinder.org
 
