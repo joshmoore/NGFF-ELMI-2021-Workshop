@@ -5,7 +5,7 @@ This repository contains a notebook for the practicals during ELMI 2021.
 ## Running on MyBinder.org
 
 You can launch workshop.ipynb by clicking on
-[![binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/joshmoore/NGFF-ELMI-2021-Workshop/HEAD?filepath=workshop.ipynb)
+[![binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/joshmoore/NGFF-ELMI-2021-Workshop/HEAD?filepath=0_Intro.ipynb)
 
 ## Running in Docker
 
@@ -35,7 +35,7 @@ and run a Notebook:
 
     $ conda activate ngff
     $ pip install jupyter
-    $ jupyter notebook workshop.ipynb
+    $ jupyter notebook 0_Intro.ipynb
 
 An additional benefit of installing the requirements locally is that you
 can then use the tools like `bioformats2raw` without needing to launch
