@@ -1,2 +1,3 @@
 .ipynb_checkpoints/
+.minio.sys
 __pycache__/

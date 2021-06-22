@@ -1,4 +1,7 @@
 def setup_minio():
   return {
-      'command': ['minio', '--address', ':{port}', 'server', '/home/joyvan']
+      # 'command': ['nohup', 'minio', '--address', ':{port}', 'server', '/home/joyvan', '&']
+      'command': ['bash', 'minio.sh', ':{port}'],
+      'timeout': 10,
+      'absolute_url': True,
   }
