@@ -1,3 +1,4 @@
 .ipynb_checkpoints/
 .minio.sys
 __pycache__/
+.DS_Store
