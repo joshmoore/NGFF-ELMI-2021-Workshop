@@ -5,14 +5,14 @@ This repository contains notebooks for the practicals during ELMI 2021.
 ## Running on MyBinder.org
 
 You can launch workshop.ipynb by clicking on
-[![binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/joshmoore/NGFF-ELMI-2021-Workshop/HEAD?filepath=0_Intro.ipynb)
+[![binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ome/NGFF-ELMI-2021-Workshop/HEAD?filepath=0_Intro.ipynb)
 
 ## Running in Docker
 
 Alternatively, if you have Docker installed, you can use the [repo2docker](https://repo2docker.readthedocs.io/en/latest/)
 tool to run this repository as a local Docker instance:
 
-    $ git clone git://github.com/joshmoore/NGFF-ELMI-2021-Workshop
+    $ git clone git://github.com/ome/NGFF-ELMI-2021-Workshop
     $ cd NGFF-ELMI-2021-Workshop
     $ repo2docker .
 
@@ -27,7 +27,7 @@ Install Anaconda https://www.anaconda.com/products/individual#Downloads
 
 Then, to create the environment:
 
-    $ git clone git://github.com/joshmoore/NGFF-ELMI-2021-Workshop
+    $ git clone git://github.com/ome/NGFF-ELMI-2021-Workshop
     $ cd NGFF-ELMI-2021-Workshop
     $ conda env create -n ngff -f binder/environment.yml
 
