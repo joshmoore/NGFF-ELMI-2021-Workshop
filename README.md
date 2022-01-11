@@ -12,7 +12,7 @@ You can launch 0_Intro.ipynb by clicking on
 Alternatively, if you have Docker installed, you can use the [repo2docker](https://repo2docker.readthedocs.io/en/latest/)
 tool to run this repository as a local Docker instance:
 
-    $ git clone git://github.com/ome/NGFF-ELMI-2021-Workshop
+    $ git clone https://github.com/ome/NGFF-ELMI-2021-Workshop
     $ cd NGFF-ELMI-2021-Workshop
     $ repo2docker .
 
@@ -27,7 +27,7 @@ Install Anaconda https://www.anaconda.com/products/individual#Downloads
 
 Then, to create the environment:
 
-    $ git clone git://github.com/ome/NGFF-ELMI-2021-Workshop
+    $ git clone https://github.com/ome/NGFF-ELMI-2021-Workshop
     $ cd NGFF-ELMI-2021-Workshop
     $ conda env create -n ngff -f binder/environment.yml
 
